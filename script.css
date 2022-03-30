@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+border-style: solid;
+border-width: 2px;
+padding: 0px;
+}
+
+i{
+   float: left;
+    font-size: 50px;
+}
+
+.title{
+    text-align:center ;
+    padding-top:0px;
+    margin-bottom: 30px;
+    float:center;
+    font-weight: 400;
+    
+}
+
+.c-header{
+color: white;
+background-color: #0e1529d7;
+padding:30px;
+margin:0px;
+margin-top: 0px;
+font-size: x-large;
+letter-spacing:3px ;
+padding-top: 30px;
+}
+
+.c-body1{
+    margin-left:0px;
+    padding:0px;
+    background-color: #8ea88b83;
+    padding-top: 60px;
+}
+
+.container2 ul{
+    padding: 0px;
+    margin:0px;
+}
+
+
+#first-col ul li{
+    height: 400px;
+    list-style-type: none;
+    background-color:rgba(36, 33, 33, 0.89);
+    width: 300px;
+    border-radius: 10px;
+}
+
+input{
+    height:50px;
+    border-style: solid;
+    border-radius: 10px;
+   margin-bottom: 40px;
+   margin-left: 80px;
+   background-color: rgba(36, 33, 33, 0.89);
+   padding-left: 15px;
+ letter-spacing: 2px;
+  }
+
+  .col ul li{
+    list-style-type: none; 
+    float: left;
+    width:200px;
+    background-color:rgba(36, 33, 33, 0.89);
+    height: 120px;
+    margin: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+#footer ul li{
+    width: 500px;
+    height: 150px;
+    list-style-type: none;
+    background-color:rgba(36, 33, 33, 0.89);
+    margin: 20px;
+    margin-left: 0px;
+    margin-top:20px;
+}
+
+@media only screen and (min-width:400px)and (max-width:800px){ 
+    .col ul li{
+width:150px;
+margin: 10px;
+    }
+    #footer ul li{
+        width: 450px;
+    }
+ }
